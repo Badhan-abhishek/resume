@@ -1,0 +1,138 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+% Page layout
+\geometry{left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm}
+
+% Define the title format
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+% Custom commands
+\newcommand{\resumesection}[1]{\section*{\scshape{#1}}}
+\newcommand{\resumeitem}[2]{\item \textbf{#1} --- #2}
+\newcommand{\projectitem}[2]{\item \textbf{#1} \\ #2}
+
+\begin{document}
+
+% Title
+\begin{center}
+    \textbf{\Huge Abhishek} \\
+    \vspace{0.1cm}
+    \textit{Full-Stack Developer | Tech Lead | AI/ML Enthusiast} \\
+    \vspace{0.1cm}
+    \textit{3+ Years Experience} \\
+    \vspace{0.1cm}
+    \textit{badhanabhishek3@gmail.com | 8059565960} \\
+    LinkedIn: \href{https://www.linkedin.com/in/abhishek-badhan-4b3b49198/}{linkedin.com/in/abhishek-badhan-4b3b49198} \\
+    GitHub: \href{https://github.com/Badhan-abhishek}{github.com/Badhan-abhishek} \\
+\end{center}
+
+\resumesection{Summary}
+Enthusiastic and experienced Full-Stack Developer with a strong foundation in building quality software and scalable systems. With a proven track record of leading teams, refining developer experiences, and delivering impactful projects, I excel at problem-solving and adapting to new challenges in fast-paced environments.
+
+\resumesection{Quick Guide}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{Full-Stack Expertise:} Proficient in frontend technologies (React, Next.js, React Native) and backend frameworks (Node.js, FastAPI, Golang, Django).
+    \item \textbf{Tech Leadership:} Experienced in leading development teams and driving architectural decisions.
+    \item \textbf{Scalable \& Robust Design:} Skilled in designing systems that efficiently handle high loads and ensure maintainability.
+    \item \textbf{Cloud \& DevOps:} Strong working knowledge of AWS, GCP, Terraform, and CI/CD pipelines.
+    \item \textbf{AI \& Innovation:} Proven experience in developing AI-based solutions, including fine-tuning GPT models to enhance chatbot capabilities.
+\end{itemize}
+
+\resumesection{Experience}
+\begin{itemize}[leftmargin=0.5cm]
+  \resumeitem{Sr. Software Developer | Tech Lead}{Cuilsoft \hfill March 2024 -- Present}
+  \begin{itemize}[leftmargin=0.5cm]
+    \item Leading development efforts, mentoring team members, and driving key architectural decisions.
+    \item Spearheading projects that enhance product quality and operational efficiency.
+  \end{itemize}
+
+  \resumeitem{Software Developer}{Cuilsoft \hfill June 2021 -- March 2024}
+  \begin{itemize}[leftmargin=0.5cm]
+    \item Developed internal tools, POCs, and customer-facing applications.
+    \item Collaborated on multiple projects, establishing coding practices that improved performance.
+  \end{itemize}
+\end{itemize}
+
+\resumesection{Projects at Cuilsoft}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{Tradecafe}
+    \begin{itemize}
+       \item Upgraded a React Native application from v0.53 to v0.73.
+       \item Developed buyer's application components including data tables, filters, screen layouts, and data fetching.
+       \item Integrated notifications and authentication.
+       \item Implemented infinite loading with rapid refresh capabilities to efficiently handle thousands of documents.
+    \end{itemize}
+    
+    \item \textbf{Quartermaster Chatbot}
+    \begin{itemize}
+       \item Developed an AI-based chatbot and vector search for Quartermaster, a platform for finding household assistance.
+       \item Introduced innovative methods for booking appointments and tailored professional searches.
+       \item Created a conversation tagging system for internal teams to mark conversations as good or bad.
+       \item Fine-tuned GPT-4o on Azure AI Foundry using the tagged conversations, enhancing chatbot performance.
+    \end{itemize}
+    
+    \item \textbf{Padder}
+    \begin{itemize}
+       \item Developed and deployed an end-to-end rent guarantor system.
+       \item Integrated third-party providers for insurance and KYC.
+       \item Implemented a Stripe payment system.
+       \item Designed dynamic forms for questionnaires, invitations, and authentication using Clerk.
+       \item Built an admin panel to manage approvals and additional functionalities.
+    \end{itemize}
+    
+    \item \textbf{PerfectDraft}
+    \begin{itemize}
+       \item Developed a checkout page using vanilla JavaScript.
+       \item Created a reusable form management library (implemented as a \texttt{Form} class) supporting subscription to form/field changes, JSON schema-based validation, default values, and state management.
+       \item Enhanced maintainability through multiple reusable functions.
+    \end{itemize}
+\end{itemize}
+
+\resumesection{Personal Projects}
+\begin{itemize}[leftmargin=0.5cm]
+   \item \textbf{Go HTMX Task Manager} (GitHub: \href{https://github.com/Badhan-abhishek/go-htmx-2}{github.com/Badhan-abhishek/go-htmx-2})
+   \begin{itemize}
+      \item A task manager built using Go, HTMX, Gorm, and TailwindCSS for efficient project and task management.
+   \end{itemize}
+   \item \textbf{RNAM} (GitHub: \href{https://github.com/Badhan-abhishek/rnam}{github.com/Badhan-abhishek/rnam})
+   \begin{itemize}
+      \item A simple web application that generates random user data for testing purposes.
+   \end{itemize}
+\end{itemize}
+
+\resumesection{Education}
+\begin{itemize}[leftmargin=0.5cm]
+  \resumeitem{Bachelor of Technology in Computer Science}{Kurukshetra University \hfill August 2016 -- December 2020}
+\end{itemize}
+
+\resumesection{Skills}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=0.5cm, label={}]
+  \item TypeScript (Advanced)
+  \item JavaScript (Advanced)
+  \item Python (Intermediate)
+  \item Golang (Intermediate)
+  \item React / Next.js (Advanced)
+  \item React Native (Intermediate)
+  \item Node.js / FastAPI / Django (Intermediate)
+  \item Terraform (Intermediate)
+  \item AWS / GCP (Advanced)
+  \item Git (Intermediate)
+  \item Docker (Intermediate)
+\end{itemize}
+\end{multicols}
+
+\resumesection{Languages}
+\begin{itemize}[leftmargin=0.5cm]
+  \item English (Advanced)
+  \item Hindi (Advanced)
+\end{itemize}
+
+\end{document}
+

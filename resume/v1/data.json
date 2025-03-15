@@ -1,0 +1,111 @@
+{
+  "name": "Abhishek",
+  "title": "Full-Stack Developer | Tech Lead | AI/ML Enthusiast",
+  "total_experience": "3+ Years",
+  "contact": {
+    "email": "badhanabhishek3@gmail.com",
+    "phone": "8059565960",
+    "linkedin": "https://www.linkedin.com/in/abhishek-badhan-4b3b49198/",
+    "github": "https://github.com/Badhan-abhishek"
+  },
+  "summary": "Enthusiastic and experienced Full-Stack Developer with a strong foundation in building quality software and scalable systems. With a proven track record of leading teams, refining developer experiences, and delivering impactful projects, I excel at problem-solving and adapting to new challenges in fast-paced environments.",
+  "quick_guide": {
+    "full_stack_expertise": "Proficient in frontend technologies (React, Next.js, React Native) and backend frameworks (Node.js, FastAPI, Golang, Django).",
+    "tech_leadership": "Experienced in leading development teams and driving architectural decisions.",
+    "scalable_design": "Skilled in designing systems that efficiently handle high loads and ensure maintainability.",
+    "cloud_devops": "Strong working knowledge of AWS, GCP, Terraform, and CI/CD pipelines.",
+    "ai_innovation": "Proven experience in developing AI-based solutions, including fine-tuning GPT models to enhance chatbot capabilities."
+  },
+  "experience": [
+    {
+      "position": "Sr. Software Developer | Tech Lead",
+      "company": "Cuilsoft",
+      "duration": "March 2024 - Present",
+      "responsibilities": [
+        "Leading development efforts, mentoring team members, and driving key architectural decisions.",
+        "Spearheading projects that enhance product quality and operational efficiency."
+      ]
+    },
+    {
+      "position": "Software Developer",
+      "company": "Cuilsoft",
+      "duration": "June 2021 - March 2024",
+      "responsibilities": [
+        "Developed internal tools, POCs, and customer-facing applications.",
+        "Collaborated on multiple projects, establishing coding practices that improved performance."
+      ]
+    }
+  ],
+  "projects_at_cuilsoft": [
+    {
+      "name": "Tradecafe",
+      "details": [
+        "Upgraded a React Native application from v0.53 to v0.73.",
+        "Developed buyer's application components including data tables, filters, screen layouts, and data fetching.",
+        "Integrated notifications and authentication.",
+        "Implemented infinite loading with rapid refresh capabilities to efficiently handle thousands of documents."
+      ]
+    },
+    {
+      "name": "Quartermaster Chatbot",
+      "details": [
+        "Developed an AI-based chatbot and vector search for Quartermaster, a platform for finding household assistance.",
+        "Introduced innovative methods for booking appointments and tailored professional searches.",
+        "Created a conversation tagging system for internal teams to mark conversations as good or bad.",
+        "Fine-tuned GPT-4o on Azure AI Foundry using the tagged conversations, enhancing chatbot performance."
+      ]
+    },
+    {
+      "name": "Padder",
+      "details": [
+        "Developed and deployed an end-to-end rent guarantor system.",
+        "Integrated third-party providers for insurance and KYC.",
+        "Implemented a Stripe payment system.",
+        "Designed dynamic forms for questionnaires, invitations, and authentication using Clerk.",
+        "Built an admin panel to manage approvals and additional functionalities."
+      ]
+    },
+    {
+      "name": "PerfectDraft",
+      "details": [
+        "Developed a checkout page using vanilla JavaScript.",
+        "Created a reusable form management library (implemented as a `Form` class) supporting subscription to form/field changes, JSON schema-based validation, default values, and state management.",
+        "Enhanced maintainability through multiple reusable functions."
+      ]
+    }
+  ],
+  "personal_projects": [
+    {
+      "name": "Go HTMX Task Manager",
+      "github": "https://github.com/Badhan-abhishek/go-htmx-2",
+      "details": "A task manager built using Go, HTMX, Gorm, and TailwindCSS for efficient project and task management."
+    },
+    {
+      "name": "RNAM",
+      "github": "https://github.com/Badhan-abhishek/rnam",
+      "details": "A simple web application that generates random user data for testing purposes."
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Technology in Computer Science",
+    "university": "Kurukshetra University",
+    "duration": "August 2016 - December 2020"
+  },
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Python", "Golang"],
+    "frontend": ["React", "Next.js", "React Native"],
+    "backend": ["Node.js", "FastAPI", "Django"],
+    "cloud_devops": ["AWS", "GCP", "Terraform", "Git", "Docker"],
+    "other": ["CI/CD", "System Design"]
+  },
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Advanced"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Advanced"
+    }
+  ]
+}
